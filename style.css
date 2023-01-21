@@ -1,0 +1,332 @@
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.wyb {
+  background-image: url('img/apla_wybierz@1X.png');
+}
+.zas {
+  background-image: url('img/zas.png');
+}
+.rej {
+  background-image: url('img/rej.png');
+}
+.zar {
+  background-image: url('img/zar.png');
+}
+.spon {
+  background-image: url('img/spon.png');
+}
+.header-text {
+  background-image: url('img/header-text.png');
+  font-size: 33px;
+  font-weight: 600;
+  margin-top: 315px;
+  margin-left: 654px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 19px 20px 10px 13px;
+}
+.kupon-img, .loteria-img, .auto-img, .header-text {
+  position: absolute;
+}
+.kupon-img {
+  margin-top: 15px;
+  margin-left: 1rem;
+}
+.loteria-img {
+  margin-top: 27px;
+  margin-left: 460px;
+}
+.auto-img {
+  margin-top: 155px;
+  margin-left: 1rem;
+}
+.content-wrap {
+  margin-top: 499px;
+}
+.header-wrap{
+  width: 100%;
+  text-align: -webkit-center;
+}
+.header {
+  max-width: 800px;
+  background-color: aliceblue;
+  top: 2rem;
+  text-align: initial;
+}
+hr:not([size]) {
+  color: #ff7d00;
+  height: 2px;
+}
+hr {
+  margin-top: 55px;
+}
+main {
+  background-color: #d46414;
+}
+.content {
+  text-align: -webkit-center;
+  padding-top: 4rem;
+}
+.btn-primary {
+  background-color: #d46414;
+  border-radius: 30px;
+  border: none;
+}
+.btn-primary:hover, .btn-primary:active:focus {
+  background-color: #c96100;
+  box-shadow: none;
+}
+.btn-outline-primary {
+  border-color: #d46414;
+  border-radius: 30px;
+  color: #d46414;
+}
+.btn-outline-primary:hover, .btn-outline-primary:active:focus {
+  background-color: #d46414;
+  border-color: #d46414;
+  color: white;
+  box-shadow: none;
+}
+.blue-title {
+  margin-top: 43px;
+  margin-bottom: 41px;
+  color: white;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px 0 3px;
+  font-size: 28px;
+}
+.wyb-img-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+.wyb-img {
+  border: 1px solid #898989;
+  border-radius: 50%;
+  width: 122px;
+  height: 122px;
+  background-position:50% 50%;
+  background-repeat:no-repeat; 
+}
+.form form {
+  display: inline-grid;
+}
+.form input {
+  max-width: 365px;
+  width: 100vw;
+  height: 46px;
+  border-radius: 30px;
+  text-align: center;
+  margin-bottom: 8px;
+  border-color: #898989;
+}
+.paragon {
+  text-align: center;
+}
+.paragon img {
+  box-shadow: 3px 3px 8px 1px rgba(0,0,0,0.42);
+}
+.zas-tab {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px 26px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "zas-img1 zas-text1"
+    "zas-img2 zas-text2"
+    "zas-img3 zas-text3";
+}
+
+.zas-img1 { grid-area: zas-img1; }
+
+.zas-img2 { grid-area: zas-img2; }
+
+.zas-img3 { grid-area: zas-img3; }
+
+.zas-text1 { grid-area: zas-text1; }
+
+.zas-text2 { grid-area: zas-text2; }
+
+.zas-text3 { grid-area: zas-text3; }
+
+.zas-text {
+  font-size: 20px;
+  align-self: center; 
+  text-align: start;
+}
+.zas-img {
+  align-self: center; 
+}
+.zas-bottom-text {
+  margin-top: 62px;
+  margin-bottom: 49px;
+  font-weight: 700;
+  max-width: 360px;
+}
+
+.spon-images ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.spon-images li {
+  flex-grow: 0;
+  margin: 5px;
+}
+
+.spon-images img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .kupon-img {
+    margin-top: 15px;
+    margin-left: 4rem;
+    height: 189px;
+  }
+  .loteria-img {
+    margin-top: 27px;
+    margin-left: 409px;
+    height: 210px;
+    width: auto;
+  }
+  .auto-img {
+    margin-top: 155px;
+    margin-left: 4rem;
+    height: 300px;
+    width: auto;
+  }
+  .header-text {
+    margin-left: 507px;
+  }
+  .content-wrap {
+    margin-top: 417px;
+  }
+  .blue-title {
+    margin-top: 0px;
+    font-size: 18px;
+  }
+  .wyb-img {
+    width: 90px;
+    height: 90px;
+    background-size: 42px;
+  }
+  
+}
+
+@media (max-width: 767px) {
+  .kupon-img {
+    margin-top: 15px;
+    margin-left: 1rem;
+    height: 130px;
+  }
+  .loteria-img {
+    margin-top: 18px;
+    margin-left: 272px;
+    height: 149px;
+  }
+  .auto-img {
+    margin-top: 103px;
+    margin-left: 1rem;
+    height: 226px;
+  }
+  .header-text {
+    font-size: 20px;
+    margin-top: 200px;
+    margin-left: 357px;
+  }
+  .content-wrap {
+    margin-top: 298px;
+  }
+  .blue-title {
+    margin-top: 0px;
+    font-size: 18px;
+  }
+  .wyb-img {
+    width: 90px;
+    height: 90px;
+    background-size: 36px;
+  }
+  @media (max-width: 500px) {
+    .kupon-img {
+      margin-left: 2rem;
+      height: 100px;
+    }
+    .loteria-img {
+      margin-top: 18px;
+      margin-left: 193px;
+      height: 92px;
+    }
+    .auto-img {
+      margin-top: 79px;
+      margin-left: 2rem;
+      height: 140px;
+    }
+    .header-text {
+      font-size: 14px;
+      margin-top: 124px;
+      margin-left: 228px;
+    }
+    .content-wrap {
+      margin-top: 200px;
+    }
+    .blue-title {
+      font-size: 14px;
+    }
+    .content {
+      padding-top: 3rem;
+    }
+    .zas-text {
+      font-size: 14px;
+    }
+    .form input {
+      max-width: 295px;
+      height: 40px;
+    }
+    .zas-bottom-text {
+      font-size: 14px;
+    }
+
+    .zas-img img {
+      height: 50px;
+      width: 50px;
+      margin-left: 1rem;
+    }
+    .wyb-img {
+      width: 60px;
+    height: 60px;
+    background-size: 26px;
+    }
+
+  }
+}
